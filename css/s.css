@@ -1,0 +1,115 @@
+/*----------------------------------------bar section-------------------------------------------------*/
+
+#Skill
+{
+	padding: 2%;
+	font-family: serif;
+}
+
+.container
+{
+	width: 500px;
+	margin: 50px 0;
+	padding: 20px;
+}
+li
+{
+	position: relative;
+	list-style: none;
+	margin: 50px 0;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.container.li:before
+{
+	content: "";
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	width: 100%;
+	height:15px ;
+	background-color: linear-gradient( to right, #a517ba,#5f1782);
+	border-radius: 1000px;
+
+}
+li:after
+{
+	content: "";
+	position: absolute;
+	top: calc(100% + 10px);
+	left: 0;
+	width: 0;
+	height:15px ;
+	background-color: linear-gradient( to right, #a517ba,#5f1782);
+	border-radius: 1000px;
+	animation-duration: .7s;
+	animation-timing-function: ease;
+	animation-fill-mode: forwards;
+}
+li.html:after
+{
+	animation-name: html;
+}
+@keyframes html{
+  to {
+	width: 90%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#f9d61bf9-0ef1-4a80-973b-f2b4c4b57253
+{
+	width: 500px;
+	height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a
